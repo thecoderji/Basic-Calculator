@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculator</title>
+	<link rel="icon" type="image/x-icon" href="image/calc.png">
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+
+	<div id = "frame">
+		<header>
+			<h1>CALCULATOR</h1>
+		</header>
+
+		<main>
+			<input type = "text" name = "text" value="" placeholder="0" readonly>
+		</main>
+
+		<table>
+			<tr>
+				<td><button value = "AC" class = "btn" id ="ac">AC</button></td>
+				<td><button value = "+/-" class = "btn" id = "sign">+/-</button></td>
+				<td><button value = "%" class = "btn" id = "remainder">%</button></td>
+				<td><button value = "/" class = "rightMost" id = "divide">/</button></td>
+			</tr>
+
+			<tr>
+				<td><button value = "7" class = "btn" id = "btn7">7</button></td>
+				<td><button value = "8" class = "btn" id = "btn8">8</button></td>
+				<td><button value = "9" class = "btn" id = "btn9">9</button></td>
+				<td><button value = "*" class = "rightMost" id = "multiply">x</button></td>
+			</tr>
+
+			<tr>
+				<td><button value = "4" class = "btn" id = "btn4">4</button></td>
+				<td><button value = "5" class = "btn" id = "btn5">5</button></td>
+				<td><button value = "6" class = "btn" id = "btn6">6</button></td>
+				<td><button value = "-" class = "rightMost" id = "subtract">-</button></td>
+			</tr>
+
+			<tr>
+				<td><button value = "3" class = "btn" id = "btn3">3</button></td>
+				<td><button value = "2" class = "btn" id = "btn2">2</button></td>
+				<td><button value = "1" class = "btn" id = "btn1">1</button></td>
+				<td><button value = "+" class = "rightMost" id = "add">+</button></td>
+			</tr>
+
+			<tr>
+				<td><button value = "0" class = "btn" id = "btn0">0</button></td>
+				<td><button class = "btn" id = "erase">Erase</button></td>
+				<td><button value = "." class = "btn" id = "decimal">.</button></td>
+				<td><button value = "=" class = "rightMost" id = "equal">=</button></td>
+			</tr>
+		</table>
+
+	</div>
+
+	<script type="text/javascript" src = "calculator.js"></script>
+</body>
+</html>
